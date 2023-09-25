@@ -1,0 +1,11 @@
+print ("What is your name?")
+firstname = input()
+print ("Hello,", firstname)
+print ("What is your surname?")
+surname = input()
+print ("Hello,", firstname, surname)
+print ("your intitials are:", firstname[0], surname[0])
+fullname = firstname +" "+ surname 
+print (fullname)
+username = surname[0] +""+surname[1] +""+ surname[2] +""+ firstname[0] +""+ str(len(surname))
+print (username)
